@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Logging</title>
+
+<style>
+body {font-family: Arial, helvetica, sans-serif;}
+input[type=text], input[type=password]{
+	
+	width:30%;
+	padding:12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	
+}
+	
+button {
+	background-color: black;
+	color: white;
+	padding: 8px 8px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+	width:20%;
+}
+
+button:hover {
+	opacity: 2;
+}
+
+.container {
+	padding: 20px;
+}
+
+</style>
+</head>
+<body>
+<div style="text-align:center">
+	<h2>Welcome to Logging Page</h2>
+	<form action="/action_page.php" method="post"></form>
+	<div class="imgcontainer"></div>
+	
+	<div class="container">
+		<label for="uname"><b>Username</b></label>
+		<input type="text" placeholder="Enter Username" name="uname"><br>
+		
+		<label for="pwd"><b>Password  </b></label>
+		<input type="password" placeholder="Enter Password" name="pwd"><br>
+		
+		<button type="button" onclick="location.href='landing.html'">Login</button>
+		
+		<label>
+		<input type="checkbox" checked="checked" name="remember"> Remember me
+		</label>
+	</div>
+</div>
+
+</body>
+
+</html>
